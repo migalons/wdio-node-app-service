@@ -5,10 +5,8 @@
   "main": "./lib",
   "scripts": {
     "build": "tsc",
-    "clean": "rimraf ./build",
-    "test": "run-s test:*",
-    "test:eslint": "eslint src test",
-    "test:unit": "jest"
+    "clean": "rimraf ./lib",
+    "test": "jest"
   },
   "author": "migalons74@gmail.com",
   "license": "MIT",
@@ -24,8 +22,15 @@
   },
   "types": "node-app-service.d.ts",
   "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-typescript": "^7.9.0",
+    "@types/jest": "^25.1.4",
+    "@types/node": "^13.9.8",
+    "babel-jest": "^25.2.4",
+    "jest": "^25.2.4",
+    "rimraf": "^3.0.2",
     "tslint": "^6.1.0",
-    "typescript": "^3.8.3",
-    "rimraf": "^3.0.2"
+    "typescript": "^3.8.3"
   }
 }
