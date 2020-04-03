@@ -1,6 +1,6 @@
 {
   "name": "wdio-node-app-service",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "webdriver.io service for running nodejs apps on background",
   "main": "./lib",
   "scripts": {
@@ -22,15 +22,12 @@
   },
   "types": "node-app-service.d.ts",
   "devDependencies": {
-    "@babel/core": "^7.9.0",
-    "@babel/preset-env": "^7.9.0",
-    "@babel/preset-typescript": "^7.9.0",
-    "@types/jest": "^25.1.4",
+    "@types/jest": "^25.2.1",
     "@types/node": "^13.9.8",
-    "babel-jest": "^25.2.4",
-    "jest": "^25.2.4",
+    "jest": "^25.2.7",
     "rimraf": "^3.0.2",
-    "tslint": "^6.1.0",
+    "ts-jest": "^25.3.1",
+    "tslint": "^6.1.1",
     "typescript": "^3.8.3"
   }
 }
